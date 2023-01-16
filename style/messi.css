@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.conteiner-nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    margin-left: 6vw;
+}
+
+.cont-link {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 16px 10px 16px;
+}
+
+.cont-link a:hover{
+    transition: ease-in-out 0.1s;
+    color:black;
+    background-color:white;
+    border-radius: 8px;
+}
+
+.cont-link a:active{
+    background-color: rgb(141,28,61);
+    color: white;
+}
+
+/* //CONT-NAV//  */
+
+.title {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.title h1 {
+    background-color: rgb(141,28,61);
+    padding: 12px 14px 12px 14px;
+}
+
+main {
+    background-image: url(../img/besacopamundo.png);
+    background-color: rgb(27, 27, 27);
+    background-blend-mode: soft-light;
+    /* background-position: center; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 125vh; */
+}
+
+/* TITLE */
+
+/* .img-conteiner {
+    background-color: black;
+    height: 125vh;
+} */
+
+.cont-img {
+    text-align: center;
+}
+
+.cont-messi {
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    /* height: 100%; */
+    padding: 80px;
+}
+
+.h2-records {
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    padding-top: 40px;
+}
+
+
+.messi {
+    width: 1200px;
+    margin-top: 50px;
+}
+
+article img {
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+    margin: 0px 50px;
+}
+
+.img-grey {
+    filter: grayscale(80%);
+}
+
+.cont-records {
+    text-align: start;
+    padding-top: 35px;
+}
+
+article p {
+    color: white;
+    margin-left: 140px;
+    margin-right: 140px;
+    font-size: 20px;
+}
+
+/* BUTTOM */
+
+.next-buttom {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 120px;
+}
+
+.next-buttom a {
+    background-color: white;
+    font-size: 20px;
+    border-radius: 13px;
+    color: rgb(141,28,61);
+    border: 2px solid rgb(141,28,61);
+    margin-top: 60px;
+}
+
+
+.next-buttom a:hover {
+    background-color: rgb(141,28,61);
+    color: white;
+}
+
+.next-buttom a:active {
+    background-color: rgb(231, 48, 103);
+}
+
+/* FOOTER */
+
+.cont-footer {
+    height: 18vh;
+    color: white;
+    background-color: rgb(141,28,61);
+    width: 100%;
+    text-align: center;
+}
+
+.name-pag {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    padding: 30px;
+}
+
+.copyright {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.cont-lineas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont-lineas hr {
+    width: 35%;
+}
+
+
+.datos-contactos {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    display: block;
+    /* font-size: 1.17em; */
+    font-weight: normal;
+}

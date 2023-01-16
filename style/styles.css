@@ -1,0 +1,771 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.conteiner-nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    margin-left: 6vw;
+}
+
+.cont-link {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 16px 10px 16px;
+}
+
+.cont-link a:hover{
+    transition: ease-in-out 0.1s;
+    color:black;
+    background-color:white;
+    border-radius: 8px;
+}
+
+.cont-link a:active{
+    background-color: rgb(141,28,61);
+    color: white;
+}
+
+/* //CONT-NAV//  */
+
+.title {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.title h1 {
+    background-color: rgb(141,28,61);
+    padding: 12px 14px 12px 14px;
+}
+  
+/* TITULO */
+
+main {
+    background-image: url(../img/qatarback2.png);
+    background-color: rgb(27, 27, 27);
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* BACKGROUND */
+
+.group-ul p {
+    /* background-color: black; */
+    color: white;
+    padding: 4px 2px;
+    font-size: 18px;
+    
+    text-decoration: none;
+}
+
+.grupos-1 {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: black; */
+}
+
+.group {
+    color: rgb(141,28,61);
+    padding: 8px 0px;
+    width: 25vh;
+    background-color: white;
+    border-radius: 13px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* PAISES */
+/* CONT-FLEX */
+/* GRUPO A */
+
+.country-qatar {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.country-ecuador {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.country-senegal {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.country-netherland {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------- */
+/* GRUPO B */
+
+.country-inglaterra {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.country-iran {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.country-eeuu {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.country-gales {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------- */
+/* GRUPO C */
+
+.country-argentina {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.country-arabiasaudita {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.country-mexico {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.country-polonia {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------- */
+/* GRUPO D */
+
+.country-francia {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.country-australia {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.country-dinamarca {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.country-tunez {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------- */
+/* GRUPO E */
+
+.country-españa {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.country-costarica {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.country-alemania {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.country-japon {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------- */
+/* GRUPO F */
+
+.country-belgica {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.country-canada {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.country-marruecos {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.country-croacia {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------- */
+/* GRUPO G */
+
+.country-brasil {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.country-serbia {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.country-suiza {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.country-camerun {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------- */
+/* GRUPO H */
+
+.country-portugal {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.country-ghana {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.country-uruguay {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.country-coreadelsur {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------- */
+
+.flags {
+    /* padding: 5px; */
+    /* height: 22px; */
+    width: 22px;
+}
+
+/* ------------------------------------------------------------- */
+
+/* HOVER GROUP */
+
+h2 {
+    cursor: pointer;
+}
+
+.group:hover {
+    background-image: linear-gradient(
+        to right, #ffbb00fd, #f3bb22, #ffd900d5, #e4e738ec, #f5bc40, #fdff81  
+    );
+    color: #000000;
+    font-weight: bold;
+    filter: saturate(100%);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/* ------------------------------------------------------------- */
+
+/* HOVER */
+
+/* GRUPO A */
+
+.country-qatar:hover {
+    background-image: linear-gradient(
+        to right, #8f26469f, #ffffff, #8f26469a, #ffffff
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+} 
+
+.country-ecuador:hover {
+    background-image: linear-gradient(
+        to right, #caae0e, #2b0eadc9, #b62c55, #fae588
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+} 
+
+.country-senegal:hover {
+    background-image: linear-gradient(
+        to right, #219c2c, #ceab0e, #b62c55, #fae588bd
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+} 
+
+.country-netherland:hover {
+    background-image: linear-gradient(
+        to right, #b91717c5, #f3f1e9, #1e2ba5c2, #ffffffbd
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+}
+
+/* ------------------------------------------------------------- */
+/* GRUPO B */
+
+.country-inglaterra:hover {
+    background-image: linear-gradient(
+        to right, #e22121c9, #ffffff, #e22121c9, #ffffff
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+} 
+
+.country-iran:hover {
+    background-image: linear-gradient(
+        to right, #18910dc7, #fffffff1, #b62c55, #20cf20ad
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+} 
+
+.country-eeuu:hover {
+    background-image: linear-gradient(
+        to right, #e01616cc, #ffffff, #101dd3bd, #e01616cc, #ffffff, #e01616cc
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+} 
+
+.country-gales:hover {
+    background-image: linear-gradient(
+        to right, #ffffff, #df2810cb, #14af2ec2, #ffffffbd
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+}
+
+/* ------------------------------------------------------------- */
+/* GRUPO C */
+
+.country-argentina:hover {
+    background-image: linear-gradient(
+        to right, #21c5e2c9, #ffffff, #eff312a1, #21c5e2c9
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+} 
+
+.country-arabiasaudita:hover {
+    background-image: linear-gradient(
+        to right, #117408c7, #fffffff1, #296b23c7, #117408c7
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+} 
+
+.country-mexico:hover {
+    background-image: linear-gradient(
+        to right, #117408c7, #ffffff, #e01616cc, #14af2ec2
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+} 
+
+.country-polonia:hover {
+    background-image: linear-gradient(
+        to right, #ffffff, #f7290dd5, #ffffff, #f7290dd5 
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+}
+
+/* ------------------------------------------------------------- */
+/* GRUPO D */
+
+.country-francia:hover {
+    background-image: linear-gradient(
+        to right, #0f22cac4, #ffffff, #f32112b0, #212ee29f
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+} 
+
+.country-australia:hover {
+    background-image: linear-gradient(
+        to right, #130b80c7, #1249adf1 , #ffffffea, #0f3783c7, rgba(255, 38, 0, 0.74)
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+} 
+
+.country-dinamarca:hover {
+    background-image: linear-gradient(
+        to right, #e42416c7, #ffffff, #e01616cc, #ec3d1ed5
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+} 
+
+.country-tunez:hover {
+    background-image: linear-gradient(
+        to right, #a81111, #f7290dd5, #ffffff, #f7290dd5 
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+}
+
+/* ------------------------------------------------------------- */
+/* GRUPO E */
+
+.country-españa:hover {
+    background-image: linear-gradient(
+        to right, #e01616cc, #f18c07, #f32112b0, #f18c07
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+} 
+
+.country-costarica:hover {
+    background-image: linear-gradient(
+        to right, #130b80c7, #ffffffea, #e01616cc, #0f3783c7, #e01616cc
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+} 
+
+.country-alemania:hover {
+    background-image: linear-gradient(
+        to right, #030303b2, #e01616cc, #ffdc17d5, #e01616cc
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+} 
+
+.country-japon:hover {
+    background-image: linear-gradient(
+        to right, #a81111, #f7290dd5, #ffffff, #f7290dd5 
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+}
+
+/* ------------------------------------------------------------- */
+/* GRUPO F */
+
+.country-belgica:hover {
+    background-image: linear-gradient(
+        to right, #030303b2, #ffdc17d5, #e01616cc, #f32112b0
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+} 
+
+.country-canada:hover {
+    background-image: linear-gradient(
+        to right, #e01616cc, #e01616cc, #ffffffea, #e01616cc, #e01616cc
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+} 
+
+.country-marruecos:hover {
+    background-image: linear-gradient(
+        to right, #e01616cc, #e01616cc, #0bda27a4, #e01616cc, #e01616cc
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+} 
+
+.country-croacia:hover {
+    background-image: linear-gradient(
+        to right, #a81111cb, #f7290dd5, #ffffff, #f7280d9a, #ffffff, #092cf19c, #092cf1a6 
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+}
+
+/* ------------------------------------------------------------- */
+/* GRUPO G */
+
+.country-brasil:hover {
+    background-image: linear-gradient(
+        to right, #059c26c0, #ffdc17bd, #0771d4cb, #059c26c0, #ffdc17bd, #059c26c0 
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+} 
+
+.country-serbia:hover {
+    background-image: linear-gradient(
+        to right, #800b0bc7, #2731c7d7, #ffffff, #0f3783c7, #e01616cc
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+} 
+
+.country-suiza:hover {
+    background-image: linear-gradient(
+        to right, #e01616cc, #e01616cc, #ffffffbe, #e01616cc, #e01616cc
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+} 
+
+.country-camerun:hover {
+    background-image: linear-gradient(
+        to right, #074907e5, #c4240fd5, #ebcd25ad, #c4240fd5, #074907e5  
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+}
+
+/* ------------------------------------------------------------- */
+/* GRUPO H */
+
+.country-portugal:hover {
+    background-image: linear-gradient(
+        to right, #059c26c0, #e01616cc, #e01616cc, #e01616cc, #059c26c0 
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+} 
+
+.country-ghana:hover {
+    background-image: linear-gradient(
+        to right, #e01616cc, #ebcd25ad, #059c26c0, #ebcd25ad, #ebcd25ad, #059c26c0, #e01616cc 
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+} 
+
+.country-uruguay:hover {
+    background-image: linear-gradient(
+        to right, #18a7e9c9, #fffffff1, #18a7e9c9, #fffffff1, #ebcd25ad, #18a7e9c9, #fffffff1
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+} 
+
+.country-coreadelsur:hover {
+    background-image: linear-gradient(
+        to right, #ffffff, #ffffff,  #c4240fd5, #1214b1c2, #ffffff, #ffffff  
+    );
+    animation: rainbowbg 4s linear infinite; 
+    border-radius: 8px;
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+}
+
+
+@keyframes rainbowbg {
+    to{
+        background-position: 20vw;
+    }
+}
+
+article {
+    padding: 100px;
+}
+
+/* SIGUIENTE */
+
+.next-buttom {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 120px;
+}
+
+.next-buttom a {
+    background-color: white;
+    font-size: 20px;
+    border-radius: 13px;
+    color: rgb(141,28,61);
+    border: 2px solid rgb(141,28,61);
+}
+
+.next-buttom a:hover {
+    background-color: rgb(141,28,61);
+    color: white;
+}
+
+.next-buttom a:active {
+    background-color: rgb(231, 48, 103);
+}
+
+
+/* FOOTER */
+
+.cont-footer {
+    height: 18vh;
+    color: white;
+    background-color: rgb(141,28,61);
+    width: 100%;
+    text-align: center;
+}
+
+.name-pag {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    padding: 30px;
+}
+
+.copyright {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.cont-lineas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont-lineas hr {
+    width: 35%;
+}
+
+
+.datos-contactos {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    display: block;
+    /* font-size: 1.17em; */
+    font-weight: normal;
+}
+
